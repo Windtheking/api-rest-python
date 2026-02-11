@@ -6,7 +6,7 @@ app = FastAPI()
 
 DB_CONFIG = {
     "host": os.getenv("SENA_HOST"),  
-    "port": 5432,
+    "port": 6543,
     "database": "postgres",
     "user": "postgres.wzlqnyidditqopwyxboh",
     "password": os.getenv("SENA_PWD"),
