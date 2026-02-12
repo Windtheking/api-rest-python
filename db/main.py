@@ -8,7 +8,7 @@ DB_CONFIG = {
     "host": os.getenv("SENA_HOST"),  
     "port": 6543,
     "database": "postgres",
-    "user": "postgres.wzlqnyidditqopwyxboh",
+    "user": os.getenv("SENA_USER"),
     "password": os.getenv("SENA_PWD"),
     "ssl": "require",
 }
